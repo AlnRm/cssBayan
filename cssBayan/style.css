@@ -1,3 +1,123 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #a9a9a9;
+}
+
+.logo {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meme {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.meme-item {
+    margin-bottom: 5px;
+    border: 1 px black;
+}
+
+.meme-title {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    color: black;
+    cursor: pointer;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+
+.meme-title:after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #a9a9a9 transparent transparent transparent;
+    position: absolute;
+    top:50%;
+    right: 15px;
+    cursor: pointer;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.meme-title:hover {
+    
+    color: blueviolet;
+    
+}
+
+
+
+.meme-input {
+    width: 0;
+    height: 0;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
+
+.meme-input:checked ~ .meme-title {
+    color:blueviolet;
+    
+
+}
+
+.meme-input:hover ~ .meme-title:after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: blueviolet transparent transparent transparent;
+    }
+
+.meme-input:checked ~ .meme-title:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent blueviolet transparent;
+}
+
+.meme-input:hover ~ .meme-img1 {
+    display: block;
+}
+
+.meme-input:hover ~ .meme-img2 {
+    display: block;
+}
+
+.meme-input:hover ~ .meme-img3 {
+    display: block;
+}
+.meme-input:hover ~ .meme-img4 {
+    display: block;
+}
+.meme-input:hover ~ .meme-img5 {
+    display: block;
+}
+.meme-input:checked ~ .meme-img1 {
+    display: block;
+}
+.meme-input:checked ~ .meme-img2 {
+    display: block;
+}
+
+.meme-input:checked ~ .meme-img3 {
+    display: block;
+} 
+
+.meme-input:checked ~ .meme-img4 {
+    display: block;
+}
+
+.meme-input:checked ~ .meme-img5 {
 display: block;
 }
 
