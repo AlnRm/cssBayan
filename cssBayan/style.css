@@ -1,0 +1,70 @@
+display: block;
+}
+
+.meme-input:hover ~ .meme-img3 {
+    display: block;
+}
+.meme-input:hover ~ .meme-img4 {
+    display: block;
+}
+.meme-input:hover ~ .meme-img5 {
+    display: block;
+}
+.meme-input:checked ~ .meme-img1 {
+    display: block;
+}
+.meme-input:checked ~ .meme-img2 {
+    display: block;
+}
+
+.meme-input:checked ~ .meme-img3 {
+    display: block;
+} 
+
+.meme-input:checked ~ .meme-img4 {
+    display: block;
+}
+
+.meme-input:checked ~ .meme-img5 {
+    display: block;
+}
+ 
+.meme-img1 {
+    display: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    position: relative;
+    
+}
+
+.meme-img2 {
+    display: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    position: relative;
+    
+}
+
+.meme-img3 {
+    display: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    position: relative;
+    
+}
+
+.meme-img4 {
+    display: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    position: relative;
+    
+}
+
+.meme-img5 {
+    display: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    position: relative;
+    
+}
